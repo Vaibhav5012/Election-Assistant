@@ -1,0 +1,748 @@
+2026-05-01 12:09:49 - utils.data_loader - INFO - Loaded and validated data for: india
+2026-05-01 12:09:49 - utils.data_loader - ERROR - Data file not found: C:\Users\bvaib\AppData\Local\Temp\pytest-of-bvaib\pytest-0\test_file_not_found0\data\atlantis.json
+2026-05-01 12:10:01 - utils.google_services - ERROR - Failed to log to Sheets worksheet 'Queries'
+Traceback (most recent call last):
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 149, in _append_row
+    _do_append()
+    ~~~~~~~~~~^^
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 330, in wrapped_f
+    return self(f, *args, **kw)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 467, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 368, in iter
+    result = action(retry_state)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 410, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 183, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: permanent failure
+2026-05-01 12:10:01 - utils.google_services - WARNING - Export requires OAuth login
+2026-05-01 12:10:01 - utils.validators - WARNING - SQL injection pattern detected: SELECT * FROM users
+2026-05-01 12:10:01 - utils.validators - WARNING - SQL injection pattern detected: DROP TABLE data
+2026-05-01 12:10:01 - utils.validators - WARNING - SQL injection pattern detected: 1; DELETE FROM votes
+2026-05-01 12:10:01 - utils.validators - WARNING - XSS payload detected: <script>alert('xss')</script>
+2026-05-01 12:10:01 - utils.validators - WARNING - XSS payload detected: javascript:alert(1)
+2026-05-01 12:10:01 - utils.validators - WARNING - XSS payload detected: onload=alert("x")
+2026-05-01 12:10:01 - utils.validators - WARNING - Path traversal detected: ../../etc/passwd
+2026-05-01 12:10:01 - utils.validators - WARNING - Path traversal detected: ..\windows\system32
+2026-05-01 12:10:31 - utils.data_loader - INFO - Loaded and validated data for: india
+2026-05-01 12:10:31 - utils.data_loader - ERROR - Data file not found: C:\Users\bvaib\AppData\Local\Temp\pytest-of-bvaib\pytest-1\test_file_not_found0\data\atlantis.json
+2026-05-01 12:10:43 - utils.google_services - ERROR - Failed to log to Sheets worksheet 'Queries'
+Traceback (most recent call last):
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 149, in _append_row
+    _do_append()
+    ~~~~~~~~~~^^
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 330, in wrapped_f
+    return self(f, *args, **kw)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 467, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 368, in iter
+    result = action(retry_state)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 410, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 183, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: permanent failure
+2026-05-01 12:10:43 - utils.google_services - WARNING - Export requires OAuth login
+2026-05-01 12:10:43 - utils.validators - WARNING - SQL injection pattern detected: SELECT * FROM users
+2026-05-01 12:10:43 - utils.validators - WARNING - SQL injection pattern detected: DROP TABLE data
+2026-05-01 12:10:43 - utils.validators - WARNING - SQL injection pattern detected: 1; DELETE FROM votes
+2026-05-01 12:10:43 - utils.validators - WARNING - XSS payload detected: <script>alert('xss')</script>
+2026-05-01 12:10:43 - utils.validators - WARNING - XSS payload detected: javascript:alert(1)
+2026-05-01 12:10:43 - utils.validators - WARNING - XSS payload detected: onload=alert("x")
+2026-05-01 12:10:43 - utils.validators - WARNING - Path traversal detected: ../../etc/passwd
+2026-05-01 12:10:43 - utils.validators - WARNING - Path traversal detected: ..\windows\system32
+2026-05-01 12:11:22 - utils.validators - WARNING - XSS payload detected: <script>alert(1)</script>
+2026-05-01 12:12:10 - utils.data_loader - INFO - Loaded and validated data for: india
+2026-05-01 16:09:05 - utils.data_loader - INFO - Loaded and validated data for: india
+2026-05-01 16:09:05 - utils.data_loader - ERROR - Data file not found: C:\Users\bvaib\AppData\Local\Temp\pytest-of-bvaib\pytest-2\test_file_not_found0\data\atlantis.json
+2026-05-01 16:09:18 - utils.google_services - ERROR - Failed to log to Sheets worksheet 'Queries'
+Traceback (most recent call last):
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 149, in _append_row
+    _do_append()
+    ~~~~~~~~~~^^
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 330, in wrapped_f
+    return self(f, *args, **kw)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 467, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 368, in iter
+    result = action(retry_state)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 410, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 183, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: permanent failure
+2026-05-01 16:09:18 - utils.google_services - WARNING - Export requires OAuth login
+2026-05-01 16:09:18 - utils.validators - WARNING - SQL injection pattern detected: SELECT * FROM users
+2026-05-01 16:09:18 - utils.validators - WARNING - SQL injection pattern detected: DROP TABLE data
+2026-05-01 16:09:18 - utils.validators - WARNING - SQL injection pattern detected: 1; DELETE FROM votes
+2026-05-01 16:09:18 - utils.validators - WARNING - XSS payload detected: <script>alert('xss')</script>
+2026-05-01 16:09:18 - utils.validators - WARNING - XSS payload detected: javascript:alert(1)
+2026-05-01 16:09:18 - utils.validators - WARNING - XSS payload detected: onload=alert("x")
+2026-05-01 16:09:18 - utils.validators - WARNING - Path traversal detected: ../../etc/passwd
+2026-05-01 16:09:18 - utils.validators - WARNING - Path traversal detected: ..\windows\system32
+2026-05-01 16:10:04 - utils.data_loader - INFO - Loaded and validated data for: india
+2026-05-01 16:10:04 - utils.data_loader - ERROR - Data file not found: C:\Users\bvaib\AppData\Local\Temp\pytest-of-bvaib\pytest-3\test_file_not_found0\data\atlantis.json
+2026-05-01 16:10:16 - utils.google_services - ERROR - Failed to log to Sheets worksheet 'Queries'
+Traceback (most recent call last):
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 149, in _append_row
+    _do_append()
+    ~~~~~~~~~~^^
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 330, in wrapped_f
+    return self(f, *args, **kw)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 467, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 368, in iter
+    result = action(retry_state)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 410, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 183, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: permanent failure
+2026-05-01 16:10:16 - utils.google_services - WARNING - Export requires OAuth login
+2026-05-01 16:10:16 - utils.validators - WARNING - SQL injection pattern detected: SELECT * FROM users
+2026-05-01 16:10:16 - utils.validators - WARNING - SQL injection pattern detected: DROP TABLE data
+2026-05-01 16:10:16 - utils.validators - WARNING - SQL injection pattern detected: 1; DELETE FROM votes
+2026-05-01 16:10:16 - utils.validators - WARNING - XSS payload detected: <script>alert('xss')</script>
+2026-05-01 16:10:16 - utils.validators - WARNING - XSS payload detected: javascript:alert(1)
+2026-05-01 16:10:16 - utils.validators - WARNING - XSS payload detected: onload=alert("x")
+2026-05-01 16:10:16 - utils.validators - WARNING - Path traversal detected: ../../etc/passwd
+2026-05-01 16:10:16 - utils.validators - WARNING - Path traversal detected: ..\windows\system32
+2026-05-01 16:20:37 - utils.data_loader - INFO - Loaded and validated data for: india
+2026-05-01 16:20:39 - utils.data_loader - INFO - Loaded and validated data for: india
+2026-05-01 16:20:39 - utils.data_loader - ERROR - Data file not found: C:\Users\bvaib\AppData\Local\Temp\pytest-of-bvaib\pytest-4\test_file_not_found0\data\atlantis.json
+2026-05-01 16:20:51 - utils.google_services - ERROR - Failed to log to Sheets worksheet 'Queries'
+Traceback (most recent call last):
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 149, in _append_row
+    _do_append()
+    ~~~~~~~~~~^^
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 330, in wrapped_f
+    return self(f, *args, **kw)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 467, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 368, in iter
+    result = action(retry_state)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 410, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 183, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: permanent failure
+2026-05-01 16:20:52 - utils.google_services - WARNING - Export requires OAuth login
+2026-05-01 16:20:53 - utils.data_loader - INFO - Loaded and validated data for: india
+2026-05-01 16:20:53 - utils.data_loader - INFO - Loaded and validated data for: usa
+2026-05-01 16:20:53 - __main__ - WARNING - Invalid country param: invalid_country
+2026-05-01 16:20:53 - __main__ - WARNING - Invalid mode param: Invalid Mode
+2026-05-01 16:20:54 - utils.validators - WARNING - SQL injection pattern detected: SELECT * FROM users
+2026-05-01 16:20:54 - utils.validators - WARNING - SQL injection pattern detected: DROP TABLE data
+2026-05-01 16:20:54 - utils.validators - WARNING - SQL injection pattern detected: 1; DELETE FROM votes
+2026-05-01 16:20:54 - utils.validators - WARNING - XSS payload detected: <script>alert('xss')</script>
+2026-05-01 16:20:54 - utils.validators - WARNING - XSS payload detected: javascript:alert(1)
+2026-05-01 16:20:54 - utils.validators - WARNING - XSS payload detected: onload=alert("x")
+2026-05-01 16:20:54 - utils.validators - WARNING - Path traversal detected: ../../etc/passwd
+2026-05-01 16:20:54 - utils.validators - WARNING - Path traversal detected: ..\windows\system32
+2026-05-01 16:21:18 - utils.google_services - ERROR - Failed to log to Sheets worksheet 'Queries'
+Traceback (most recent call last):
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 149, in _append_row
+    _do_append()
+    ~~~~~~~~~~^^
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 330, in wrapped_f
+    return self(f, *args, **kw)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 467, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 368, in iter
+    result = action(retry_state)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 410, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 183, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: permanent failure
+2026-05-01 16:21:19 - utils.google_services - WARNING - Export requires OAuth login
+2026-05-01 16:21:39 - utils.data_loader - INFO - Loaded and validated data for: india
+2026-05-01 16:21:39 - utils.data_loader - INFO - Loaded and validated data for: india
+2026-05-01 16:21:39 - utils.data_loader - ERROR - Data file not found: C:\Users\bvaib\AppData\Local\Temp\pytest-of-bvaib\pytest-5\test_file_not_found0\data\atlantis.json
+2026-05-01 16:21:51 - utils.google_services - ERROR - Failed to log to Sheets worksheet 'Queries'
+Traceback (most recent call last):
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 149, in _append_row
+    _do_append()
+    ~~~~~~~~~~^^
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 330, in wrapped_f
+    return self(f, *args, **kw)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 467, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 368, in iter
+    result = action(retry_state)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 410, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 183, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: permanent failure
+2026-05-01 16:21:52 - utils.google_services - WARNING - Export requires OAuth login
+2026-05-01 16:21:52 - utils.data_loader - INFO - Loaded and validated data for: india
+2026-05-01 16:21:52 - utils.data_loader - INFO - Loaded and validated data for: usa
+2026-05-01 16:21:52 - __main__ - WARNING - Invalid country param: invalid_country
+2026-05-01 16:21:52 - __main__ - WARNING - Invalid mode param: Invalid Mode
+2026-05-01 16:21:52 - utils.validators - WARNING - SQL injection pattern detected: SELECT * FROM users
+2026-05-01 16:21:52 - utils.validators - WARNING - SQL injection pattern detected: DROP TABLE data
+2026-05-01 16:21:52 - utils.validators - WARNING - SQL injection pattern detected: 1; DELETE FROM votes
+2026-05-01 16:21:52 - utils.validators - WARNING - XSS payload detected: <script>alert('xss')</script>
+2026-05-01 16:21:52 - utils.validators - WARNING - XSS payload detected: javascript:alert(1)
+2026-05-01 16:21:52 - utils.validators - WARNING - XSS payload detected: onload=alert("x")
+2026-05-01 16:21:52 - utils.validators - WARNING - Path traversal detected: ../../etc/passwd
+2026-05-01 16:21:52 - utils.validators - WARNING - Path traversal detected: ..\windows\system32
+2026-05-01 16:23:51 - utils.data_loader - INFO - Loaded and validated data for: india
+2026-05-01 16:26:59 - utils.data_loader - INFO - Loaded and validated data for: india
+2026-05-01 16:26:59 - utils.data_loader - INFO - Loaded and validated data for: india
+2026-05-01 16:26:59 - utils.data_loader - ERROR - Data file not found: C:\Users\bvaib\AppData\Local\Temp\pytest-of-bvaib\pytest-6\test_file_not_found0\data\atlantis.json
+2026-05-01 16:27:11 - utils.google_services - ERROR - Failed to log to Sheets worksheet 'Queries'
+Traceback (most recent call last):
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 149, in _append_row
+    _do_append()
+    ~~~~~~~~~~^^
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 330, in wrapped_f
+    return self(f, *args, **kw)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 467, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 368, in iter
+    result = action(retry_state)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 410, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 183, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: permanent failure
+2026-05-01 16:27:11 - utils.google_services - WARNING - Export requires OAuth login
+2026-05-01 16:27:11 - utils.data_loader - INFO - Loaded and validated data for: india
+2026-05-01 16:27:11 - utils.data_loader - INFO - Loaded and validated data for: usa
+2026-05-01 16:27:11 - __main__ - WARNING - Invalid country param: invalid_country
+2026-05-01 16:27:11 - __main__ - WARNING - Invalid mode param: Invalid Mode
+2026-05-01 16:27:12 - utils.validators - WARNING - SQL injection pattern detected: SELECT * FROM users
+2026-05-01 16:27:12 - utils.validators - WARNING - SQL injection pattern detected: DROP TABLE data
+2026-05-01 16:27:12 - utils.validators - WARNING - SQL injection pattern detected: 1; DELETE FROM votes
+2026-05-01 16:27:12 - utils.validators - WARNING - XSS payload detected: <script>alert('xss')</script>
+2026-05-01 16:27:12 - utils.validators - WARNING - XSS payload detected: javascript:alert(1)
+2026-05-01 16:27:12 - utils.validators - WARNING - XSS payload detected: onload=alert("x")
+2026-05-01 16:27:12 - utils.validators - WARNING - Path traversal detected: ../../etc/passwd
+2026-05-01 16:27:12 - utils.validators - WARNING - Path traversal detected: ..\windows\system32
+2026-05-01 16:32:29 - utils.data_loader - INFO - Loaded and validated data for: india
+2026-05-01 16:32:29 - utils.data_loader - INFO - Loaded and validated data for: india
+2026-05-01 16:32:29 - utils.data_loader - ERROR - Data file not found: C:\Users\bvaib\AppData\Local\Temp\pytest-of-bvaib\pytest-7\test_file_not_found0\data\atlantis.json
+2026-05-01 16:32:41 - utils.google_services - ERROR - Failed to log to Sheets worksheet 'Queries'
+Traceback (most recent call last):
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 149, in _append_row
+    _do_append()
+    ~~~~~~~~~~^^
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 330, in wrapped_f
+    return self(f, *args, **kw)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 467, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 368, in iter
+    result = action(retry_state)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 410, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 183, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: permanent failure
+2026-05-01 16:32:42 - utils.google_services - WARNING - Export requires OAuth login
+2026-05-01 16:32:42 - utils.data_loader - INFO - Loaded and validated data for: india
+2026-05-01 16:32:42 - utils.data_loader - INFO - Loaded and validated data for: usa
+2026-05-01 16:32:42 - __main__ - WARNING - Invalid country param: invalid_country
+2026-05-01 16:32:42 - __main__ - WARNING - Invalid mode param: Invalid Mode
+2026-05-01 16:32:42 - utils.validators - WARNING - SQL injection pattern detected: SELECT * FROM users
+2026-05-01 16:32:42 - utils.validators - WARNING - SQL injection pattern detected: DROP TABLE data
+2026-05-01 16:32:42 - utils.validators - WARNING - SQL injection pattern detected: 1; DELETE FROM votes
+2026-05-01 16:32:42 - utils.validators - WARNING - XSS payload detected: <script>alert('xss')</script>
+2026-05-01 16:32:42 - utils.validators - WARNING - XSS payload detected: javascript:alert(1)
+2026-05-01 16:32:42 - utils.validators - WARNING - XSS payload detected: onload=alert("x")
+2026-05-01 16:32:42 - utils.validators - WARNING - Path traversal detected: ../../etc/passwd
+2026-05-01 16:32:42 - utils.validators - WARNING - Path traversal detected: ..\windows\system32
+2026-05-01 16:36:45 - utils.data_loader - INFO - Loaded and validated data for: india
+2026-05-01 16:36:45 - utils.data_loader - INFO - Loaded and validated data for: india
+2026-05-01 16:36:45 - utils.data_loader - ERROR - Data file not found: C:\Users\bvaib\AppData\Local\Temp\pytest-of-bvaib\pytest-8\test_file_not_found0\data\atlantis.json
+2026-05-01 16:36:58 - utils.google_services - ERROR - Failed to log to Sheets worksheet 'Queries'
+Traceback (most recent call last):
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 149, in _append_row
+    _do_append()
+    ~~~~~~~~~~^^
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 330, in wrapped_f
+    return self(f, *args, **kw)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 467, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 368, in iter
+    result = action(retry_state)
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 410, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 183, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+  File "C:\Users\bvaib\AppData\Roaming\Python\Python313\site-packages\tenacity\__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\bvaib\Desktop\Election Helper\election_assistant\utils\google_services.py", line 147, in _do_append
+    ws.append_row(row)
+    ~~~~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: permanent failure
+2026-05-01 16:36:58 - utils.google_services - WARNING - Export requires OAuth login
+2026-05-01 16:36:58 - utils.data_loader - INFO - Loaded and validated data for: india
+2026-05-01 16:36:58 - utils.data_loader - INFO - Loaded and validated data for: usa
+2026-05-01 16:36:58 - __main__ - WARNING - Invalid country param: invalid_country
+2026-05-01 16:36:58 - __main__ - WARNING - Invalid mode param: Invalid Mode
+2026-05-01 16:36:58 - utils.validators - WARNING - SQL injection pattern detected: SELECT * FROM users
+2026-05-01 16:36:58 - utils.validators - WARNING - SQL injection pattern detected: DROP TABLE data
+2026-05-01 16:36:58 - utils.validators - WARNING - SQL injection pattern detected: 1; DELETE FROM votes
+2026-05-01 16:36:58 - utils.validators - WARNING - XSS payload detected: <script>alert('xss')</script>
+2026-05-01 16:36:58 - utils.validators - WARNING - XSS payload detected: javascript:alert(1)
+2026-05-01 16:36:58 - utils.validators - WARNING - XSS payload detected: onload=alert("x")
+2026-05-01 16:36:58 - utils.validators - WARNING - Path traversal detected: ../../etc/passwd
+2026-05-01 16:36:58 - utils.validators - WARNING - Path traversal detected: ..\windows\system32
